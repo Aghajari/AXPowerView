@@ -1,0 +1,7 @@
+siteUrl = https://github.com/Aghajari/AXPowerView
+gitUrl = https://github.com/Aghajari/AXPowerView.git
+version = 1.0.0
+groupId = com.aghajari.powerview
+licenses = ['Apache-2.0']
+id = AXPowerView
+name = AXPowerView

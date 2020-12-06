@@ -1,0 +1,3 @@
+include ':AXPowerView'
+include ':app'
+rootProject.name = "AXPowerView-App"

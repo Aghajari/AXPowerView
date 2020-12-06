@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AXPowerView">
+        <attr name="color" format="color"/>
+        <attr name="innerColor" format="color"/>
+        <attr name="thickness" format="dimension"/>
+        <attr name="innerThickness" format="dimension"/>
+
+        <attr name="delay" format="integer"/>
+        <attr name="showDuration" format="integer"/>
+        <attr name="succeedDuration" format="integer"/>
+        <attr name="indeterminateDuration" format="integer"/>
+
+        <attr name="autoStart" format="boolean"/>
+        <attr name="firstAnimation" format="boolean"/>
+        <attr name="innerViewEnabled" format="boolean"/>
+
+        <attr name="state" format="enum">
+            <enum name="HIDDEN" value="0"/>
+            <enum name="POWER" value="1"/>
+            <enum name="LOADING" value="2"/>
+            <enum name="SUCCEED" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

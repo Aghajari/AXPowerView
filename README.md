@@ -37,7 +37,7 @@ add the AXPowerView to your layout:
     app:state="POWER" />
 ```
 
-That's all you need! If you don't want the CircularProgressView to automatically start animating, omit the app:autoStart option and start it manually yourself:
+That's all you need! If you don't want the AXPowerView to automatically start animating, omit the app:autoStart option and start it manually yourself:
 
 ```java
 AXPowerView powerView = findViewById(R.id.powerView);
@@ -56,7 +56,7 @@ powerView.setState(AXPowerView.State.POWER);
 | innerThickness | color | 3dp | thickness of the innerView |
 | indeterminateDuration | integer | 600 | loading animation duration |
 | delay | integer | 80 | loading animation delay |
-| showDuration | integer | 4000 | showing animation duration |
+| showDuration | integer | 400 | showing animation duration |
 | succeedDuration | integer | 400 | succeed animation duration |
 | autoStart | boolean | true | Whether the view should automatically start animating once it is initialized. |
 | firstAnimation | boolean | true | Whether the view should load current state without animation for first time |

@@ -66,7 +66,7 @@ powerView.setState(AXPowerView.State.POWER);
 ## Public Methods
 
 | Name | Description |
-|:----:|:-----------:|
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | setState(AXPowerView.State) | Sets current AXPowerView's state |
 | setState(AXPowerView.State,boolean) | Sets current AXPowerView's state |
 | getCurrentState() | Returns the current AXPowerView's state |
@@ -97,7 +97,7 @@ powerView.setState(AXPowerView.State.POWER);
 ## Listener Events
 
 | Event | Description |
-|:----:|:-----------:|
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | onAnimationEnded(State currentState, State nextState) | Called when the last animation finished  |
 | onStateChanged(State from, State to,boolean animationLoaded) | Called when the state changed |
 

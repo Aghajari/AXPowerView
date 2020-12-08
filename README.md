@@ -92,7 +92,7 @@ powerView.setState(AXPowerView.State.POWER);
 | getSucceedDuration() | Gets succeed animation duration |
 | setDelay(long) | Sets loading animation delay |
 | getDelay() | Gets loading animation delay |
-| setAnimatorListener(AXPowerView.AnimatorListener) | Registers an AnimatorListener with this view. |
+| setAnimatorListener(listener) | Registers an AXPowerView.AnimatorListener with this view. |
 
 ## Listener Events
 
